@@ -13,6 +13,7 @@ public class Main_20230114_LV10_25305_B2 {
         int k =Integer.parseInt(st.nextToken());
         int[] arr = new int[n];
 
+
         StringTokenizer st2 = new StringTokenizer(br.readLine());
         for (int i = 0; i < n; i++) {
             arr[i] =Integer.parseInt(st2.nextToken());

@@ -19,6 +19,7 @@ public class Main_20230115_LV10_10814_S5 {
             str[i][1] = st.nextToken(); //이름
         }
 
+
         //Integer.parseInt 는 문자열 형을 숫자형으로 변환
         Arrays.sort(str, new Comparator<String[]>() {   //나이순 정렬 용도
             @Override

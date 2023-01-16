@@ -8,6 +8,7 @@ public class Main_20230114_LV10_2587_B2 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
+
         //주어진 수 n개 일때 n이 짝수이면 중앙값은 2개의 평균임
         //근데 이문제는 5개 픽스라 고민 x
 

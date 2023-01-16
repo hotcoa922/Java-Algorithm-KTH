@@ -20,6 +20,7 @@ public class Main_20230115_LV10_18870_S2 {
             arr[i] = Integer.parseInt(st.nextToken());
         }
 
+
         sarr = arr.clone(); //배열 깊은복사(원본 안바뀜)
         Arrays.sort(sarr);
 

@@ -8,6 +8,7 @@ public class Main_20230114_LV10_2750_B2 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
+
         int n = Integer.parseInt(br.readLine());
         int[] arr = new int[n];
 

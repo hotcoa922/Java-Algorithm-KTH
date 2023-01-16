@@ -10,6 +10,7 @@ public class Main_20230114_LV10_2108_S3 {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
 
+
         int n = Integer.parseInt(br.readLine());
         ArrayList<Integer> list = new ArrayList<>();
         int[] cnt = new int[8001];

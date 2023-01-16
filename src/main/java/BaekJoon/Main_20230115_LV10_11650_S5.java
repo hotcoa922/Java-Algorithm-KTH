@@ -17,6 +17,7 @@ public class Main_20230115_LV10_11650_S5 {
             xy[i][1] = Integer.parseInt(st.nextToken());
         }
 
+
         Arrays.sort(xy, (k1, k2) ->{
             if(k1[0]==k2[0]){   //x좌표 동일시
                 return k1[1] - k2[1];          //y좌표 비교

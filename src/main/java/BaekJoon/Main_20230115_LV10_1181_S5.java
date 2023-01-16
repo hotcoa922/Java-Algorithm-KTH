@@ -16,6 +16,7 @@ public class Main_20230115_LV10_1181_S5 {
             str[i] = br.readLine();
         }
 
+
         //문자열 길이 같으면 사전순
         Arrays.sort(str, new Comparator<String>() {
             @Override

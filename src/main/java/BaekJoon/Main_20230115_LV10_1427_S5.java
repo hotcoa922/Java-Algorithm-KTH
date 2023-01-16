@@ -16,6 +16,7 @@ public class Main_20230115_LV10_1427_S5 {
             bw.write(String.valueOf(arr[i]));
         }
 
+
         bw.close();
     }
 }

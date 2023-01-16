@@ -14,6 +14,7 @@ public class Main_20230114_LV10_10989_B1 {
         int n = Integer.parseInt(br.readLine());
         ArrayList<Integer> list = new ArrayList<>();
 
+
         for (int i = 0; i < n; i++) {
             list.add(Integer.parseInt(br.readLine()));
         }
