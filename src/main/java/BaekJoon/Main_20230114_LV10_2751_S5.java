@@ -21,6 +21,7 @@ public class Main_20230114_LV10_2751_S5 {
         //병합정렬 - O(nlogn), 둘 이상의 부분집합으로 가르고, 각 부분집합을 정렬한 다음 부분집합들을 다시 정렬된 형태로 합치는 방식
         //힙정렬 - O(nlogn),트리 기반으로 최대 힙 트리or 최소 힙 트리를 구성해 정렬을 하는 방법
         //퀵정렬 - O(nlogn), 데이터 집합내에 임의의 기준(pivot)값을 정하고 해당 피벗으로 집합을 기준으로 두개의 부분 집합으로 나눈다.
+
         int n = Integer.parseInt(br.readLine());
         ArrayList<Integer> list = new ArrayList<>();
 

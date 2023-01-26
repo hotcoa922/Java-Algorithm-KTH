@@ -29,7 +29,7 @@ public class Main_20230114_LV10_2108_S3 {
         }
 
         int max = -1;
-        ArrayList<Integer> list2 = new ArrayList<>();
+        ArrayList<Integer> list2 = new ArrayList<>();   //최빈으로 등장한 녀석들 저장해주는 것(일반적으로 한개만 들어가 지는데 여러개 들어갈 수도 있다)
         for (int i = 0; i < 8001; i++) {
             int tmp = i;
             if(max==cnt[i]){
@@ -47,6 +47,7 @@ public class Main_20230114_LV10_2108_S3 {
                 max=cnt[i];
             }
         }
+
 
         int manyIdx;
         Collections.sort(list2);
